@@ -1,0 +1,30 @@
+{
+  "name": "pg-nosql",
+  "version": "1.0.0",
+  "description": "Knex extension that helps with NoSQL queries with PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4n5h/pg-nosql.git"
+  },
+  "keywords": [
+    "pg",
+    "potsgres",
+    "postgesql",
+    "nosql",
+    "knex",
+    "sql"
+  ],
+  "author": "Daniel Shlomo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d4n5h/pg-nosql/issues"
+  },
+  "homepage": "https://github.com/d4n5h/pg-nosql#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
