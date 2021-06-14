@@ -20,8 +20,8 @@ async function main() {
         }
     });
 
-    if (!await this.schema.hasTable('tablename')) {
-        await knex.schema.createTable('tablename', table => {
+    if (!await db.schema.hasTable('tablename')) {
+        await db.schema.createTable('tablename', table => {
             table.uuid('id').primary();
             table.jsonb('data');
         });

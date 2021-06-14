@@ -1,6 +1,6 @@
 {
   "name": "pg-nosql",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Knex extension that helps with NoSQL queries with PostgreSQL",
   "main": "index.js",
   "scripts": {
